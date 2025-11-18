@@ -1,7 +1,8 @@
-ATENÇÂO:
+ATENÇÃO:
 - Todas as wordlists utilizadas estão disponíveis nesse arquivo;
 - Esse readme é apenas uma instrução do que foi feito sobre cada ataque simulado;
-- Imagens adicionais estão disponíveis no diretório 'images'.
+- Imagens adicionais estão disponíveis no diretório 'images';
+- Recomendo fazer download do README e ler ele no Visual Studio Code para evitar problemas de leitura e entendimento do conteúdo.
 
 Configuração do Ambiente:
 - Ambos o Kali Linux e o Metasploitable Linux (Ubuntu) estão rodando em rede interna (Host-Only) no VMware Workstation.
@@ -45,3 +46,4 @@ Password Spraying em SMB:
     - smbclient -L 192.168.209.129 -U msfadmin
     - msfadmin
       - Rodando o comando smbclient e botando 'msfadmin' como usuário e senha, ele nos retorna os diretórios que o usuário tem acesso, como o 'tmp' e o 'ADMIN$'.
+
